@@ -1,15 +1,37 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import React, { useState } from "react";
+import GoogleMapReact from 'google-map-react';
+import Interface from "../components/Interface";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
-)
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default IndexPage
+export default function SimpleMap() {
+  const [isOpenInterface, setIsOpenInterface] = useState(true)
+  const defaultProps = {
+    center: {
+      lat: -33.868820,
+      lng: 151.209290
+    },
+    zoom: 10
+  };
+
+  return (
+    <div style={{ height: '100vh', width: '100%', position: 'relative' }} >
+      {isOpenInterface && <Interface />}
+
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: "AIzaSyCTd-4w5z5_-dQtt6U1_dK-lWXRQVSjgGU" }}
+        defaultCenter={defaultProps.center}
+        defaultZoom={defaultProps.zoom}
+      >
+
+
+        {/* <AnyReactComponent
+          lat={-33.868820}
+          lng={151.209290}
+          text="My Marker"
+        /> */}
+
+      </GoogleMapReact>
+    </div>
+  );
+}
