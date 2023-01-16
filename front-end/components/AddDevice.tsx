@@ -231,7 +231,7 @@ const AddDevice = ({ closeAddDevicePopup }: AddDeviceProps) => {
                         };
                       });
                     }}
-                    className=" w-[213px]  bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
+                    className=" w-[230px]  bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
                   />
                 </div>
               </div>
@@ -288,7 +288,7 @@ const AddDevice = ({ closeAddDevicePopup }: AddDeviceProps) => {
                         return { ...p, simcardPhoneNumber: e.target.value };
                       });
                     }}
-                    className=" w-[170px] bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
+                    className=" w-[230px] bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
                   />
                 </div>
                 <div className=" flex">
@@ -301,7 +301,7 @@ const AddDevice = ({ closeAddDevicePopup }: AddDeviceProps) => {
                         return { ...p, imei: e.target.value };
                       });
                     }}
-                    className=" w-[170px] bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
+                    className=" w-[230px] bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
                   />
                 </div>
                 <div className=" flex">
@@ -314,7 +314,7 @@ const AddDevice = ({ closeAddDevicePopup }: AddDeviceProps) => {
                       });
                     }}
                     type="text"
-                    className=" w-[170px] bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
+                    className=" w-[230px]  bg-[#F5F5F5] border-b-2 border-[#656565] focus:outline-0 text-black px-2"
                   />
                 </div>
               </div>
