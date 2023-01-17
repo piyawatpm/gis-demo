@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.active-card{
+  --tw-drop-shadow: drop-shadow(-3px -3px 6px white);
+
+  border-radius: 0.375rem/* 6px */;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-color: white;
+  background-color: #F5F5F5;
+  border-radius: 0.375rem/* 6px */;
+  box-shadow: inset 2.5px 2.5px 2px rgba(0, 0, 0, 0.058);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-color: white;
+  background-color: #F5F5F5;
+}
+.active-card-small{
+  --tw-drop-shadow: drop-shadow(-3px -3px 6px white);
+
+  border-radius: 0.375rem/* 6px */;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-color: white;
+  background-color: #F5F5F5;
+  border-radius: 0.375rem/* 6px */;
+  box-shadow: inset 2.5px 2.5px 2px rgba(0, 0, 0, 0.227);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: white;
+  background-color: #F5F5F5;
+}
+button.styled{
+  --tw-drop-shadow: drop-shadow(-3px -3px 6px white);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 0.375rem/* 6px */;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-color: white;
+    background-color: #F5F5F5;
+}
+button.styled:active{
+  border-radius: 0.375rem/* 6px */;
+  box-shadow: inset 2.5px 2.5px 2px rgba(0, 0, 0, 0.193);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-color: white;
+  background-color: #F5F5F5;
+}
+/* rounded-md inner-shadow2  border-b-2 border-r-2 border-white shadow-black  */
+
+.shine {
+    box-shadow: 0px -3px 15px 3px #34d3d6;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 44px;
+  }
+  .custom-scrollbar.samll::-webkit-scrollbar {
+    width: 30px;
+  }
+
+ 
+ 
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #F5F5F5;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #F5F5F5;
+    width: 34px;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 6px;
+    padding-top: 10px;
+    margin-top: 50px;
+  
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track-piece:vertical{
+    background: linear-gradient(
+    to right,
+    #F5F5F5 48%,
+    #A8A8A8 48% 50%,
+    #F5F5F5 51% 100%
+  );
+  }
+  .custom-scrollbar::-webkit-scrollbar-corner{
+    background-color: #F5F5F5;
+  }
+.custom-scrollbar::-webkit-scrollbar-button:vertical{
+  background: transparent;
+width: 44px;
+  height: 44px;
+}
+.custom-scrollbar::-webkit-scrollbar-button:vertical:increment{
+  /* background-position: center 20px; */
+  height: 62px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA+CAYAAABQmvmRAAAABHNCSVQICAgIfAhkiAAABEdJREFUaEPtmd1LU2Ecx8+ab9jIyBICy4TNZjpdSSlEJPRCaQRBdwbdKNGVF1F/QAhBXXURBnonXumNd4r4gl7IvAoHc2vm1ObLdJubuM1Nz07f35OT0/Blbjt6RueBL892Xp7n83zPc55zzu+n4jKsqDKMl1OApb5iisOKw3EOKFNCmRLKlJB6DigOKw4f7oCyDks9QzLbYUEQDHCoDiqFzkFnIBpUugcmoM2YdvA7DIWgTcgPeaElaBlyqVSqYOzKMRCA5qJ6Dd2FLkBnoRxILQFsrG8CjkI8FNmFDqD27YLOo3ZATmgV0DSQv84B+A2qh9AV6CKUD2VB5LCURQzNnAYLQa9Go9Gf0A/8NmdnZy+i9pLTKhxQhT/vID10NRKJFO3s7EgNmpAJAFwB9PtgMGjKyclxFxQUbBBwC85+DpWHw+FSnudlASsa0fzS0tILgP8uKytjwJ+wk2606xjJ5YSGfrIHCVar9f7GxoZdq9X6Cfgb+jdCOgBfOlmWxHqbnJx85PV6rXq93kfA7SLgwsSaONmjxsfHn3o8numSkhIvAX/fBdbCYVkCj42NNa6srFh0Op0nI4BHRkaeLS8vW8rLy90KsBSzW3FYClfFbSoOKw7HOfD/TAmn08mNjo5ytbW1HJ46Kc0Eu93OmUwmrr6+nisuLj60raQd7ujo4MxmM2u8qamJgSdTCLS7u5udajAYuJYWesM9uCQNPDU1xXV2du61nAy0GJYaam5u5qqq6BtCAmBqMr7D40Ane27SDsc8SKbjZM6J9Zcy8HGdTgWW+koLcKLQqcKmFfgo6HTAph34IGjaHlu6Ul0G0zYlxAtRvJvifcdZSfZb3CQB3s/pVJ1N6ypx0DIvdjpVZw8CTvtnPr1zUDnqHeHQx5toZ/yUiAVSyvCZT4FA2ZXh4eFGmGDBewf7zP8KwpsQhaqKZEcLoKGhoYaFhQVLRUUFA/6MbbegGzKNrXGDg4NP5ubmpqurq1nk5yNgayADgCk+LLsyMDDw2OFwWCsrKxnwBxDehowA1sqOFkB9fX0PZmdnbXB4nYAp+l6DujYUCh3+YnpKo+nt7b1ns9l+GY1GFr18CY5q1HUAprSB7Ep7e/udmZmZeXzhsIA2JWL0iLzXIAL/Vna0SMG0tbVVLi4uuvLy8hgwpbiuAVgLYFoxzssJGkzW1tbWhq2tLUqFbRIwZYyKkYgpxE4dEiFfsK0I9alzE2xXV9er/v7+BY1Gs9nT07MVS3uRqxq3253v8/k06+vrGuQUcuF61vb2tmRJGhjDChIurMA0PhAIbKP/MFiCSMZsulyuAGAp6RgCML9nIznt9/tz19bWshA8zkKtxmVQIw2mQkOS2I12KU/HwRgBbkZx00extEaRz+BR8/hPuTtKOkYIlo79BwTQlPlU47mthsNqjFQSUPFcwxVk0DBGIAFSgMvCxMQEj/6jAKVsKTuGyh+ksKJue3mt1gAAAABJRU5ErkJggg==");
+
+}
+
+/* example for active button */
+/* .custom-scrollbar::-webkit-scrollbar-button:vertical:increment:active{
+  height: 62px;
+  background-color: green;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA+CAYAAABQmvmRAAAABHNCSVQICAgIfAhkiAAABEdJREFUaEPtmd1LU2Ecx8+ab9jIyBICy4TNZjpdSSlEJPRCaQRBdwbdKNGVF1F/QAhBXXURBnonXumNd4r4gl7IvAoHc2vm1ObLdJubuM1Nz07f35OT0/Blbjt6RueBL892Xp7n83zPc55zzu+n4jKsqDKMl1OApb5iisOKw3EOKFNCmRLKlJB6DigOKw4f7oCyDks9QzLbYUEQDHCoDiqFzkFnIBpUugcmoM2YdvA7DIWgTcgPeaElaBlyqVSqYOzKMRCA5qJ6Dd2FLkBnoRxILQFsrG8CjkI8FNmFDqD27YLOo3ZATmgV0DSQv84B+A2qh9AV6CKUD2VB5LCURQzNnAYLQa9Go9Gf0A/8NmdnZy+i9pLTKhxQhT/vID10NRKJFO3s7EgNmpAJAFwB9PtgMGjKyclxFxQUbBBwC85+DpWHw+FSnudlASsa0fzS0tILgP8uKytjwJ+wk2606xjJ5YSGfrIHCVar9f7GxoZdq9X6Cfgb+jdCOgBfOlmWxHqbnJx85PV6rXq93kfA7SLgwsSaONmjxsfHn3o8numSkhIvAX/fBdbCYVkCj42NNa6srFh0Op0nI4BHRkaeLS8vW8rLy90KsBSzW3FYClfFbSoOKw7HOfD/TAmn08mNjo5ytbW1HJ46Kc0Eu93OmUwmrr6+nisuLj60raQd7ujo4MxmM2u8qamJgSdTCLS7u5udajAYuJYWesM9uCQNPDU1xXV2du61nAy0GJYaam5u5qqq6BtCAmBqMr7D40Ane27SDsc8SKbjZM6J9Zcy8HGdTgWW+koLcKLQqcKmFfgo6HTAph34IGjaHlu6Ul0G0zYlxAtRvJvifcdZSfZb3CQB3s/pVJ1N6ypx0DIvdjpVZw8CTvtnPr1zUDnqHeHQx5toZ/yUiAVSyvCZT4FA2ZXh4eFGmGDBewf7zP8KwpsQhaqKZEcLoKGhoYaFhQVLRUUFA/6MbbegGzKNrXGDg4NP5ubmpqurq1nk5yNgayADgCk+LLsyMDDw2OFwWCsrKxnwBxDehowA1sqOFkB9fX0PZmdnbXB4nYAp+l6DujYUCh3+YnpKo+nt7b1ns9l+GY1GFr18CY5q1HUAprSB7Ep7e/udmZmZeXzhsIA2JWL0iLzXIAL/Vna0SMG0tbVVLi4uuvLy8hgwpbiuAVgLYFoxzssJGkzW1tbWhq2tLUqFbRIwZYyKkYgpxE4dEiFfsK0I9alzE2xXV9er/v7+BY1Gs9nT07MVS3uRqxq3253v8/k06+vrGuQUcuF61vb2tmRJGhjDChIurMA0PhAIbKP/MFiCSMZsulyuAGAp6RgCML9nIznt9/tz19bWshA8zkKtxmVQIw2mQkOS2I12KU/HwRgBbkZx00extEaRz+BR8/hPuTtKOkYIlo79BwTQlPlU47mthsNqjFQSUPFcwxVk0DBGIAFSgMvCxMQEj/6jAKVsKTuGyh+ksKJue3mt1gAAAABJRU5ErkJggg==");
+
+} */
+
+
+.custom-scrollbar.small::-webkit-scrollbar-button:vertical:increment{
+  /* background-position: center 20px; */
+  height: 52px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA0CAYAAAAew7HJAAAABHNCSVQICAgIfAhkiAAABLNJREFUaEPtmU1MI2UYx99SdMtaYoxmgeAXSEXk048sBjCGbJRlVw4mwsG4yUKIBy9kD3iAiybAQU7EKIYQLlwMEBO8ACFAQgJcOJHIbpXlK2Cp2HZpaUsLM7P//4SS1iB26QwOpk/yz/SdvvPO733mbed5n8ckLqGZLiGzSEJf1FNLejrp6TM8cPmXh6IoVzDBa1AuxAml6PzIFYwvQxJ0BIWhEHQABSEPP5tMJvY7sRNPA/h1nL0LZULPQE9fADSBo2H30X4E/QltQX9ATsgBcE5INRUawB/gcAfKhl6ArkJP4XwKOkdPUrPPGFtgbBnHE3C06V2fLMuEfojvfjWbzb8fg7sj4CZ8weXwNURPv4wLrkmSZCWwZoT/MhAfPydB0YcQJxLA+Z9x7ifoN4vFwqXiZV/2/gSNz6CCo6Oj18LhsOWiYOO8zy8+n68dbI7s7GxCHxL6Hi6uhd4IBoMvHc82zvEupJu8sbFR6fV61zIyMvZycnIOCP0dbl2KYz6guVQMZ4uLizdCodADQpeWlvoJ/QOhuaYDgQB/hIaz+fn5mx6P535hYaEb2id0LyjLIBugnzccMYBmZ2dv7+zsLNtsNldVVZWP0D8eQ+cZFXpmZuZjh8OxXFBQ8FcSWs9llfS0nt6NHjvp6Uvp6dXVVYHgKi52RGsiN5dh+pObpstjaGhI4G0VF0VFRYVoaGiIq+/fO2kKjehLdHZ2ioMDbjT+2RBWivb2dpGenv7fQ5NgbGxMTExMnAlTU1MjamsZSJ7PNPU0ERAZiq6uLkGvn2b0bltbm0hLSzsfMa7SHJokc3NzYnh4+FSo+vp6UVlZeW5gXqgLNLZooru7WyCoiYHLysoSra2tIiUlsZ2bLtAkXVpaEgMDAzHQTU1NoqSkJCEv6+bpCFVPT49YW1tTm9gWiZaWloSBdYcmMMFpBCa4Fqbb8ojA9ff3qx+bm5u14FXH0B0a2yL1RpmZTFRpY7pDa4MZO8r/Btrwu/HTPP09HgZTCIbNe0xPT9/e2tpaLi4uPkkh8D/qLSgfKQRDZpimpqZubW5uLiNR46qurlaTNd8C+G3oTUBn6fFDSnTMycnJm+vr6/eREnNHoL/BoO8CvpgJyERvoMf1CH0/wovrQVFRkRthrprL+4rQXCLwdJ4eN010zNHR0RvY2tnhaU9dXV2A0F8cQ18HNBORhrORkZH37Xb7w7KyskfYsgUJ/SkoGYq9B+gPDUcMoN7e3usrKysb5eXl3sbGRjU/zQg9HzHxO9jrfWlAaKWjo6Noe3vbib2mt6+vT60EMBR79fDwMA8lgi60DZWjZjIdEeMtONQNzn3skCRCs5L1IqCfQ73FhppGB869oldV6wmepAJg++Dg4Ofj4+ObVquVwNz2K5GS3LNopO/u7qbt7e1ZUd+wIvNuQSImFZNJbK90BiVLWjQsTdXgTQn3C4Mj5HK5/Ni+BZxOpx/ALNUF6WUOF138vArgK7ggFZ1TcTRjEDO8b8Ky0aWYiHHVGhycQ6/KeE/I+DOQ3W63hKOEdqQwGo4Ax0CzgUmbcTDjPW+Gt83wti6w0c6HZ1VwOEehAKr4/X5lYWFBwv1lwLKmGFNmfgzpMsZi6DOhJwAAAABJRU5ErkJggg==");
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:vertical:decrement{
+  /* background-position: center 20px; */
+  height: 62px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA+CAYAAABQmvmRAAAABHNCSVQICAgIfAhkiAAABFhJREFUaEPtmdtLFFEcx2dbb9iSkSUEWybs2pqubkkpRCR0oTSCoDeDXpToyYeoPyCEoJ56CAN9E5/0xTdFvKAPok+hoLutecvb6rruLntxV2en729wZNtM57KjI8yBL2dm53fmfM53z9zOz8AkFY7j7Nithoqgc9AZyLCn5FCl2xxOIGgX2zEoCoWgAOSDVqBVyGMwGCJChwTDADQb1WvoLnQBOgtlQUYVYIW+CTgBsVB8DzqM2r8HuoB6DlqC1gFNA+HdI+A3qB5CV6CLUC6UAZHDapZkaN5psBD0eiKR+An9wPZkZmbmMmofOW1AQDl23kE26Go8Hi/Y3d1VG1SUCQBcA/T7SCQylpWV5c3LywsScCNaP4dKYrFYEcuymoBNGtHCysrKC4D/Li4u5oE/4SBdaNcxksuihn68QZzT6bwfDAbdFoslQMDf0L8DsgL40vGyiOttfHz8kc/nc9psNj8BtyQB54s7xfFGjYyMPN3c3JwuLCz0EfD3PWALHNYk8PDwcN3a2tqU1WrdPBXAg4ODz1ZXV6dKSkq8OrAas1t3ONXVpSV6/DOM2WxOi+GqOjw2NsZ0dHTwoPX19UxVVZViaNWAk2EFynRAqwJ8EGy6oNMOnApLrlIRpobS6ZFW4INghXl72DEpEzttwGKAxMQcBZ8WYCkgUmIPglcMLAdAThsBXhGwko7ltpUNPDExwbS1te3/a3LusanQDQ0NTHk5fVb+v8gGbm1tZSYnJxU/xZKh7XY709hIn5UqANM7wtDQEP+4xcv0URf3ocfdbjdD4DU1NUe+c8h2WBGhgsY6sALzRDU99Q5r/jM/1WFhIaUYn/m0EKi5MjAwUIc71BRugfxn/lcQ3oRoqapAc7QA6u/vr11cXJwqLS3lgT/jt1vQDY2urTF9fX1P5ufnpysqKviVn4+ArYTsAKb1Yc2V3t7ex3Nzc86ysjIe+AMIb0MOAFs0Rwug7u7uB7Ozsy44vEXAtPpeiboqGo0e/hZyQqPp6uq653K5fjkcDn718iU4KlBXA5jSBporLS0td2ZmZhbwDsMvaFMixoaV90qswL/VHC1SMM3NzWXLy8uenJwcHphSXNcAbAEw3THOawkaTM6mpqba7e1tSoWFCJgyRmYkYvJx0IpEyBf8VoD6xLkJtr29/VVPT8+iyWQKdXZ2bgtpL3LV5PV6c/1+v2lra8uEnEI2XM/Y2dlRLUkDY/iChAtfYBobDod30H8MLBEkY0IejycMWEo6RgHM7ttITgcCgeyNjY0MLB5noDbibzAiDWbAiVSxG+elPB0DYzi4mcBFn8CtNYF8BouaxT7l7ijpGCdYiv0LBNCU+TTiuW2Ew0aMVBXQ5LmGf5CHhjEcCZAcXOZGR0dZ9J8AKGVL+Zh/gE980ooAUN1BEQySQnRgSXbJCNYdlmGapCa6w5LskhGsOyzDNElNdIcl2SUjWHdYhmmSmugOS7JLRrDusAzTJDX5A6S+om7oRRxOAAAAAElFTkSuQmCC");
+
+}
+.custom-scrollbar.small::-webkit-scrollbar-button:vertical:decrement{
+  /* background-position: center 20px; */
+  height: 52px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA0CAYAAAAew7HJAAAABHNCSVQICAgIfAhkiAAABMRJREFUaEPtmV1IW2cYx98kpolbKcNtdcS1YDsbEycxjlG2Ca0o2A8FB8Wxsum89GKCN4p2oDJQVHY1NnupXu3GXlTxQvzCC6/8YBdLdKUW8SPO1GRNYr5PTv/PIclSSEvOaU44g7zw53w973t+5znPSd73eVQspfE8r8PhRegKpILUqddl2OcxZgzioCgUhkJQEApAbtpXqVRkl2wEJjQAX8PmB+gj6F3oXA6gCTgV1ofjf6ET6AA6gv6BHACnBxKaAA3gG9h8D5VAH0DvQFqcV8M4YZvVLcZmGDuGbRIcx+RdbywWI+inuPaXRqN5Egd3JcBVuEDhMACRpy+jw0WO484TcFYp3zAYvX56CBL5EKIH8eP8I5z7A/pbr9dTqHjIlqy/xsF9yBSNRq+Gw2F9rmAzvM9jr9f7AGyOkpISgo4QdBc634bKA4HApfjTZjheTsxie3t7X3k8nmfFxcUvSktLgwT9K25twdYIaAoVxbX19fW6UCi0TdAWi+WMoH8naIppv99PH6Hi2tra2i23222vqKhwQT6CHgdlFVQG6PcVRwyg1dXVu8fHx7aysrLTmpoaL0E/jEN/olTo5eXlRofDYTOZTM/z0HKGVd7Tcno3dey8p1/nabvdLlzC156Vl5ETT4+MjAiwPT09/w/ozc1NNjU1JcC2tray6urqtwaX1dORSIQNDw8zl8slgBYVFbHe3l6m1WrfClxW6IWFBTY7O/sKYGNjI6uvr1cmNGaIbHBwkAWDtLz7r2Hyzvr7+1lhYaFkcNk8PTMzwxYXF9OC1dXVsaamJmVBUwwPDQ0xrC7SghUUFLC+vj4hxqU0WTw9OTnJtra23shjtVpZW1ubFGaWdeijoyM2OjqaEUx3dzczGAwZ2aYaZR16fHyc7ezsZARiNBpZR0dHRrayQosmkNAh656WwCC6Sx5atMskdkjnacWvxtNB/wYHWCFKISgy77G0tHT34ODAVllZmUwhUIaJ8h5GQH8o8Q3K2g3TgzuHh4f28vLy57W1tUKy5hfcsRpbEyY9xbLeXeLgmD3e3t/fpwzTaQJ6iKChT+Fpyk8rrs3PzzcgCbmN5dtpQ0ODkMv7CZSfQRZAlyqOGEBzc3P1u7u7O2az2YXZop+gf8T5zwkc0GYlQk9PT98E9BNAu1taWgIE/V08pq8jpr9UIjRmkV9gfvOsqqrqRXt7u5CfvgVQE8oW17Hq+EaJ0GNjY1bE9CGmt57Ozs4QQRsBaga0GYnrQRxrlAQOnmBXV5fl7OzM2dzc7EF4cIlC0ccANsDgPuC/VRI0fup+xjz8oU6n8+Anzz8wMBAjaKq5GQB9HnqPPkYsQu+p1eprkLT1kYinTtR44gVOqnLxWLY5wfEnKgAT+AjtKBT5kFT3bWxsRGjoRB2REhMXYHju5OREB4NCGOpQ6dJggAIyRJkuqwVFoQaHhjfLY+wY7sUhBLDLhfHvF0VhKIREegjfWRC1lvDExERymZ9asaV9PRapWnTSAF6Njhr0ySps6ksApHAIx/BI9PA+n0+Ax68YD6dxCAkOa8/IysrKKyvmtEAUMjDM6QfpdDqT9W+bzcZT7L4uymTzooiwFm2ahxbtMokd8p6W6DjR3fKeFu0yiR1eAiVDymKvcjuzAAAAAElFTkSuQmCC");
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-button:vertical:start:increment,
+.custom-scrollbar::-webkit-scrollbar-button:vertical:end:decrement, 
+.custom-scrollbar::-webkit-scrollbar-button:horizontal:end:increment, 
+.custom-scrollbar::-webkit-scrollbar-button:horizontal:end:decrement 
+{
+    display: none;
+}
+
+.inner-shadow{
+   --tw-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.193);
+    --tw-shadow-colored: inset 0 2px 10px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.inner-shadow2{
+  box-shadow: inset 2.5px 2.5px 2px rgba(0, 0, 0, 0.193);
+}
+
+/*
+ * react-circular-progressbar styles
+ * All of the styles in this file are configurable!
+ */
+
+ .CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   */
+  width: 100%;
+  /*
+   * This fixes a centering issue with CircularProgressbarWithChildren:
+   * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+   */
+  vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path  {
+  stroke: #3e98c7 ;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+  position: inherit;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.219));
+  
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+  /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
+  stroke-linecap: round;
+  
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #3e98c7;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  z-index: 30;
+}
+
+.CircularProgressbar .CircularProgressbar-background {
+  fill: #d6d6d6;
+}
+
+/*
+ * Sample background styles. Use these with e.g.:
+ *
+ *   <CircularProgressbar
+ *     className="CircularProgressbar-inverted"
+ *     background
+ *     percentage={50}
+ *   />
+ */
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #3e98c7;
+  
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
+#logo {
+  display: inline-block;
+  position: relative;
+}
+#j {
+  width: 210px;
+  height: 220px;
+  border-radius: 100%;
+  border: 20px solid purple;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+  -webkit-transform: rotate(45deg);
+  display: inline-block;
+}
+
+#logo .speedometer {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 20px solid purple;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+  -webkit-transform: rotate(45deg);
+  display: inline-block;
+}
+#logo .needle {
+  width: 10px;
+  height: 90px;
+  background: #999999;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  display: inline-block;
+  left: 70px;
+  position: absolute;
+  top: 10px;
+  /* -webkit-animation: move 5s infinite;
+  transform: rotate(0deg);
+  transform-origin: bottom; */
+}
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
